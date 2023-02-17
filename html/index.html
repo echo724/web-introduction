@@ -1,0 +1,176 @@
+<!-- Create html base -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ECHO INTRODUCTION</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="introduce" class="container p-3">
+        <h1>자기소개</h1>
+        <ul>
+            <li>이름 : 조은찬</li>
+            <li>사는곳 : 미사</li>
+            <li>
+                <code>echo Hello World</code>
+                <br />
+                뚝딱거리는 에코입니다.
+            </li>
+        </ul>
+    </div>
+    <div id="best_movie" class="container p-3">
+        <h1>인생 영화 BEST5</h1>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">순위</th>
+                    <th scope="col">제목</th>
+                    <th scope="col">포스터</th>
+                    <th scope="col">줄거리</th>
+                    <th scope="col">바로가기</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>
+                        <p>인터스텔라</p>
+                    </td>
+                    <td>
+                        <image src="../images/Interstella.jpg" class="img-thumbnail">
+                    </td>
+                    <td>
+                        <strong>“우린 답을 찾을 거야, 늘 그랬듯이</strong>
+                        <br />
+                        사랑하는 가족들을 뒤로 한 채 인류라는 더 큰 가족을 위해, 그들은
+                        이제 희망을 찾아 우주로 간다.
+                        <br />
+                        그리고 우린 답을 찾을 것이다. 늘 그랬듯이…
+                    </td>
+                    <td>
+                        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=45290">링크</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>
+                        <p>레미제라블</p>
+                    </td>
+                    <td>
+                        <image src="../images/lesmiserable.jpg" class="img-thumbnail">
+                    </td>
+                    <td>
+                        <strong>올 겨울, 당신의 영혼을 울리는 감동 대작!</strong>
+                        <br />
+                        사랑과 용서, 구원과 희망을 향한 노래가 시작된다!
+                    </td>
+                    <td>
+                        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=89755">링크</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>위대한 쇼맨</td>
+                    <td>
+                        <image src="../images/thegreatestshow.jpg" class="img-thumbnail"></image>
+                    </td>
+                    <td>
+                        <strong>불가능한 꿈, 그 이상의 쇼!</strong>
+                        쇼 비즈니스의 창시자이자, 꿈의 무대로 전세계를 매료시킨 남자
+                        <br />‘바넘’의 이야기에서 영감을 받아 탄생한 오리지널 뮤지컬 영화
+                    </td>
+                    <td>
+                        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=106360">링크</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>라라랜드</td>
+                    <td>
+                        <image src="../images/lalaland.jpg" class="img-thumbnail"></image>
+                    </td>
+                    <td>
+                        황홀한 사랑, 순수한 희망, 격렬한 열정…<br />이 곳에서 모든 감정이 폭발한다!
+                        꿈을 꾸는 사람들을 위한 별들의 도시 ‘라라랜드’.
+                    </td>
+                    <td>
+                        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=134963">링크</a>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>어바웃 타임</td>
+                    <td>
+                        <image src="../images/abouttime.jpg" class="img-thumbnail"></image>
+                    </td>
+                    <td>
+                        아버지(빌 나이)로부터 놀랄만한 가문의 비밀을 듣게 된다.
+                        <br />
+                        바로 시간을 되돌릴 수 있는 능력이 있다는 것!
+                        <br />
+                        어떠한 순간을 다시 살게 된다면, 과연 완벽한 사랑을 이룰 수 있을까?
+                    </td>
+                    <td>
+                        <a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=92075">링크</a>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <div id="visitor" class="container p-3">
+        <h1>방명록</h1>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputName" class="col-form-label">이름: </label>
+            </div>
+            <div class="col-auto">
+                <input type="text" id="inputName" class="form-control">
+            </div>
+        </div>
+        <p>본인 취향 영화</p>
+        <div class="mb-3">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault-1">
+                <label id="label-1" lass="form-check-label" for="flexSwitchCheckDefault-1">인터스텔라</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault-2">
+                <label id="label-2" class=" form-check-label" for="flexSwitchCheckDefault-2">레미제라블</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault-3">
+                <label id="label-3" class=" form-check-label" for="flexSwitchCheckDefault-3">위대한 쇼맨</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault-4">
+                <label id="label-4" class=" form-check-label" for="flexSwitchCheckDefault-4">라라랜드</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault-5">
+                <label id="label-5" class=" form-check-label" for="flexSwitchCheckDefault-5">어바웃 타임</label>
+            </div>
+
+        </div>
+        <div class="row row-cols-auto g-3">
+            <div class="col">
+                <button class="btn btn-primary" type="button" onclick="clickSubmit()">등록</button>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary" type="reset">취소</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
